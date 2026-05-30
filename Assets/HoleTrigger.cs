@@ -2,8 +2,6 @@ using UnityEngine;
 
 public class HoleTrigger : MonoBehaviour
 {
-
-    [SerializeField] private AudioSource holeSound;
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -20,11 +18,6 @@ public class HoleTrigger : MonoBehaviour
             other.transform.position = transform.position;
 
             ARPlaceCourse manager = FindFirstObjectByType<ARPlaceCourse>();
-
-            if (holeSound != null)
-            {
-                holeSound.Play();
-            }
 
             if (manager != null)
             {
