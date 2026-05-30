@@ -7,6 +7,8 @@ public class ARPlaceCourse : MonoBehaviour
 {
     public GameObject[] levelPrefabs;
     public GameObject winPanel;
+    public GameObject finishedPanel;
+
 
     private int currentLevelIndex = 0;
     private ARRaycastManager raycastManager;
@@ -19,6 +21,11 @@ public class ARPlaceCourse : MonoBehaviour
 
         if (winPanel != null)
             winPanel.SetActive(false);
+
+        if (finishedPanel != null)
+        {
+            finishedPanel.SetActive(false);
+        }
     }
 
     void Update()
@@ -64,8 +71,16 @@ public class ARPlaceCourse : MonoBehaviour
 
     public void ShowWinPanel()
     {
-        if (winPanel != null)
-            winPanel.SetActive(true);
+        if (currentLevelIndex == levelPrefabs.Length - 1)
+        {
+            if (finishedPanel != null)
+                finishedPanel.SetActive(true);
+        }
+        else
+        {
+            if (winPanel != null)
+                winPanel.SetActive(true);
+        }
     }
 
     public void NextLevel()
