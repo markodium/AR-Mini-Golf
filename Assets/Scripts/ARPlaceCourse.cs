@@ -97,6 +97,8 @@ public class ARPlaceCourse : MonoBehaviour
 
         if (winPanel != null)
             winPanel.SetActive(false);
+        if (finishedPanel != null)
+            finishedPanel.SetActive(false);
 
         spawnedLevel = null;
     }
