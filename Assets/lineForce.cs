@@ -5,6 +5,7 @@ public class lineForce : MonoBehaviour
     [SerializeField] private float shotPower;
     [SerializeField] private float stopVelocity = .05f;
     [SerializeField] private LineRenderer lineRenderer;
+    [SerializeField] private AudioSource strokeSound;
 
     private bool isIdle;
     private bool isAiming;
@@ -106,6 +107,11 @@ public class lineForce : MonoBehaviour
 
         Vector3 direction = (horizontalWorldPoint - transform.position).normalized;
         float strength = Vector3.Distance(transform.position, horizontalWorldPoint);
+
+        if (strokeSound != null)
+        {
+            strokeSound.Play();
+        }
 
         rigidbody.AddForce(direction * strength * shotPower);
         isIdle = false;
