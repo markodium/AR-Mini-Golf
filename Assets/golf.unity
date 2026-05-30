@@ -1328,6 +1328,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   levelPrefabs:
   - {fileID: 4322989711271785434, guid: b6d29e0f676b40f4bb8f3c4a0884032f, type: 3}
+  - {fileID: 9207108309053240103, guid: e2c4099f2f864824893de34395b01e7d, type: 3}
   winPanel: {fileID: 1406645076}
 --- !u!4 &2512387470860572925
 Transform:
