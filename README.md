@@ -41,8 +41,8 @@ Each level introduces a different layout and challenge, requiring players to adj
 
 ### Assets
 
-Mini golf environment assets: https://assetstore.unity.com/packages/3d/environments/stylized-mini-golf-294196
-Golf club swing sound effect: https://pixabay.com/sound-effects/film-special-effects-golf-14-94167/
-Level passed sound effect: https://pixabay.com/sound-effects/film-special-effects-soft-treble-win-fade-out-ending-sound-effect-416829/
+ * Mini golf environment assets: https://assetstore.unity.com/packages/3d/environments/stylized-mini-golf-294196
+ * Golf club swing sound effect: https://pixabay.com/sound-effects/film-special-effects-golf-14-94167/
+ * Level passed sound effect: https://pixabay.com/sound-effects/film-special-effects-soft-treble-win-fade-out-ending-sound-effect-416829/
 
 
