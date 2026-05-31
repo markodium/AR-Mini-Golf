@@ -473,7 +473,7 @@ GameObject:
   - component: {fileID: 573961551}
   - component: {fileID: 573961550}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: WinCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -575,7 +575,7 @@ GameObject:
   - component: {fileID: 728644869}
   - component: {fileID: 728644868}
   m_Layer: 5
-  m_Name: Canvas (1)
+  m_Name: FinalLevelCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
